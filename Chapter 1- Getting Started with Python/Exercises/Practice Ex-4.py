@@ -16,5 +16,3 @@ print(area)
 
 #Calculate the area of the triangle
 #Enter the values for the three sides when the program is running
-
-print("The area of triangle abc is" 'area')
