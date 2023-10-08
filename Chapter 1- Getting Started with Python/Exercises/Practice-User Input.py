@@ -12,13 +12,4 @@ drink=(input("Enter your favourite drink:"))
 hobby=(input("Enter your favourite hobby:"))
 
 #print all of the above 
-print(name+
-      age+
-      number+
-      father+
-      mother+
-      address+
-      siblings+
-      food+
-      drink+
-      hobby)
+print(name+ age+ number+ father+ mother+ address+ siblings+ food+ drink+ hobby)
