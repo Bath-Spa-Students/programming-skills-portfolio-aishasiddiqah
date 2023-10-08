@@ -8,3 +8,5 @@ print('''1.
 7.
 8.
 9.''')
+
+print("name" "\nage") 
