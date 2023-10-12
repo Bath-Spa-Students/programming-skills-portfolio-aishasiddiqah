@@ -4,3 +4,6 @@ print('''W
 X
 Y
 Z''')
+
+#or alternatively, by using the \n method:
+print("W \nX \nY \nZ")
