@@ -2,6 +2,7 @@
 
 import datetime
 
-#to get the current date and time:
-Current_date_and_time= datetime.datetime.now()
-print(Current_date_and_time)
+# in order to get the current date and time:
+
+date_and_time= datetime.datetime.now()
+print("Currently, the date and time is:" ,date_and_time)
