@@ -2,5 +2,4 @@
 #Your output should look something like the following, including the quotation marks:
 #Albert Einstein once said, “A person who never made a mistake never tried anything new.
 
-print ("In his play 'Romeo and Juliet,' William Shakespeare wrote,")
-print("''What's in a name? That which we call a rose by any other name would smell just as sweet.''")
+print('''Robert Frost said, "In three words I can sum up everything I've learned about life: it goes on"''')
