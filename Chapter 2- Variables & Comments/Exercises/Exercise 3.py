@@ -3,7 +3,15 @@
 #Print the name once, so the whitespace around the name is displayed. 
 #Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
+name = "\tAisha\t"
+print(name)
+print ("My name is" , name , "and I am a first year student.")
 
+name = "\nAisha\n"
+print (name)
+
+name = "\tAisha\n"
+print(name)
 
 name = "Aisha"
 print(name.lstrip())
@@ -11,3 +19,7 @@ print(name.lstrip())
 print(name.rstrip())
 
 print(name.strip())
+
+print(name.rstrip())
+print("\nUsing rstrip():")
+print(name.rstrip())
