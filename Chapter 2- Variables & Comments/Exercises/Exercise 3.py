@@ -19,7 +19,3 @@ print(name.lstrip())
 print(name.rstrip())
 
 print(name.strip())
-
-print(name.rstrip())
-print("\nUsing rstrip():")
-print(name.rstrip())
