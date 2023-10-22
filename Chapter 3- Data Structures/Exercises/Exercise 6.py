@@ -43,7 +43,7 @@ print("Dear Queen of Hearts, \nPlease accept my sincerest apologies for withdraw
 #I should let the other two know that they are still invited
 invite_5= f'Dear {guest_list[0]}, I am sending another invitation to notify you that you are still invited to the dinner.'
 invite_6= f'Dear {guest_list[1]}, I am sending another invitation to notify you that you are still invited to the dinner.'
-regards_1="\nBest wishes."
+regards_1="\nMy sincere apologies for the inconvenience. Have a nice day."
 print(invite_5 , end , regards_1)
 print(invite_6 , end , regards_1)
 
