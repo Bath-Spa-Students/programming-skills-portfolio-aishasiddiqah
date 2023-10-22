@@ -19,7 +19,11 @@ print(invite_3 , end , regards)
 print(f'{guest_list[0]} will not be able to attend the dinner.')
 
 #Since Mr.Rabbit won't be able to make it to dinner, let's invite the Queen of Hearts instead.
-
 guest_list.remove("Mr.Rabbit")
-guest_list.append("Queen of Hearts")
+guest_list.insert(0, "Queen of Hearts")
 print(guest_list)
+
+invite_4= f'Dear {guest_list[0]}, I would like to cordially invite you to dinner.'
+print(invite_1 , end , regards)
+print(invite_3 , end , regards)
+print(invite_4 , end , regards)
