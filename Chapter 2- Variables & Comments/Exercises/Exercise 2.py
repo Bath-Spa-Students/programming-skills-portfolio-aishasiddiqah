@@ -2,4 +2,4 @@
 #Your output should look something like the following, including the quotation marks:
 #Albert Einstein once said, “A person who never made a mistake never tried anything new.
 
-print('''Robert Frost said, "In three words I can sum up everything I've learned about life: it goes on"''')
+print('''The American poet Robert Frost once said, "In three words I can sum up everything I've learned about life: it goes on"''')
