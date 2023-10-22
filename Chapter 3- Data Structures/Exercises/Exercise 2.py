@@ -10,3 +10,12 @@ print("Have a great day", names[2] + ".")
 print("Have a great day", names[3] + ".")
 print("Have a great day", names[4] + ".")
 print("Have a great day", names[5] + ".")
+#OR
+msg="Have a great day"
+end="!"
+print(msg,names[0],end)
+print(msg,names[1],end)
+print(msg,names[2],end)
+print(msg,names[3],end)
+print(msg,names[4],end)
+print(msg,names[5],end)
