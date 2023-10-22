@@ -12,8 +12,39 @@
 
 places=["Venice","Florence","Geneva","Amsterdam","Manchester"]
 print(places)
+
 #in alphabetical order
+print("Alphabetical order (Temporary):")
 print(sorted(places))
+
 #prove that the list is not permanently changed
+print("Original format:")
 print(places)
+
 #for reverse alphabetical order
+print("Reverse alphabetical order (Temporary):")
+print(sorted(places, reverse=True))
+
+#prove that list remains unchanged
+print("Original format:")
+print(places)
+
+#reverse the elements of the list
+print("Reverse order:")
+places.reverse()
+print(places)
+
+#reverse the list again to its original order
+print("Original format (after reversing):")
+places.reverse()
+print(places)
+
+#alphabetical order, but this time it should be permanent
+print("Alphabetical order (Permanent):")
+places.sort()
+print(places)
+
+#reverse alphabetical order, but also permanent
+print("Reverse alphabetical order (Permanent):")
+places.sort(reverse=True)
+print(places)
