@@ -6,12 +6,15 @@
 
 
 
-name = "\tAisha\n"
+name = "\tAisha\t\n"
 print (name)
-print("My name is", name , "and I am a student studying in first year.")
+print("My name is", name , ".")
 
-print(name.lstrip())
+#Using the lstrip() method:
+print("My name is", name.lstrip() , ".")
 
-print(name.rstrip())
+#Using the rstrip() method:
+print("My name is", name.rstrip() , ".")
 
-print(name.strip())
+#Using the strip() method:
+print("My name is", name.strip() , ".")
