@@ -18,7 +18,7 @@ print("str1 is greater than str2")
 #nested decision structure
 #for a job at a restaurant #food comp.
 previous_exp=(input("Do you have any previous work experience within this field?"))
-if previous_exp-"yes":
+if previous_exp>"yes":
         print("You may proceed")
 else :
         print("You need to have previous work experience to be able to apply")   
@@ -28,7 +28,8 @@ savory=(input("Do you know how to make savory food?"))
 sweet=(input("Do you know how to make sweet food/desserts?"))
 if savory-"yes" and sweet-"yes":
         print("Please make sure you go through the rules and regulations before applying. Thank you.")
- else :
+else :
       print("You are not eligible to apply.")
+
 
 
