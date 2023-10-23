@@ -4,8 +4,6 @@
 #Print the name once, so the whitespace around the name is displayed. 
 #Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
-
-
 name = "\tAisha\t\n"
 print (name)
 print("My name is", name , ".")
