@@ -12,8 +12,8 @@ str1="mary"
 str2="mark"
 str1>str2
 print("str1 is greater than str2")
-x= ascii("mary")
-print (x)
+
+
 #every if has an else#
 
 #nested decision structure 
