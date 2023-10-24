@@ -7,6 +7,12 @@
 
 color=input("The color of the alien is: ")
 if color=="green":
-    print("Congratulations! You have just earned 5 points for successfully shooting the alien!")
-else:
+    print("Congratulations! You have just earned 5 points!")
+elif color=="yellow":
     print("You have just earned 10 points! Congratulations!")
+elif color=="red":
+    print("Congratulations! You just earned 15 points!")
+else:
+    print("?")
+
+#what about else???
