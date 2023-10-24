@@ -15,3 +15,11 @@ if color=="green":
     print("Congratulations! You have just earned 5 points for successfully shooting the alien!")
 else:
     print("You have just earned 10 points! Congratulations!")
+
+#OR
+
+color=input("The color of the alien is ")
+if color=="green":
+    print("Congratulations! You have just earned 5 points for successfully shooting the alien!")
+else:
+    print("You have just earned 10 points! Congratulations!")
