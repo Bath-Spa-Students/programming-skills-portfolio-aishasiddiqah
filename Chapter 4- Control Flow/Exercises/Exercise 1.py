@@ -6,7 +6,17 @@
 
 alien_color="yellow"
 if alien_color=="green" :
-    print=("That is correct! You have just earned yourself five extra points!")
-else :
-    print=("That is incorrect! That is not the color of the alien.")
-alien_color="yellow"
+    print("That is correct! You have just earned yourself five extra points!")
+
+alien_color="green"
+if alien_color=="green" :
+    print("That is correct! You have just earned yourself five extra points!")
+
+#OR
+#just let the user enter the color directly
+
+alien_color=input("What is the color of the alien?")
+if alien_color == "green" :
+    print("You are correct! The color of the alien is green. You have just earned 5 points.")
+else:
+    print("That is incorrect! The colour of the alien is green, not" , alien_color +".")
