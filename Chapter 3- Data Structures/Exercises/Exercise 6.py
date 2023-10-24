@@ -37,7 +37,7 @@ print("I would like to inform everyone that I will only be able to accommodate t
 guest_list.pop(0)
 print(guest_list)
 
-#Now, let's apologize to the Queen. I reallt hope she won't get mad.
+#Now, let's apologize to the Queen. I really hope she won't get mad.
 print("Dear Queen of Hearts, \nPlease accept my sincerest apologies for withdrawing your invitation. I am truly very sorry.\nI hope you have a wonderful day.")
 
 #I should let the other two know that they are still invited
