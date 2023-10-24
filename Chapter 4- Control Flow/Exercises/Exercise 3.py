@@ -13,5 +13,5 @@ elif color=="yellow":
 elif color=="red":
     print("Congratulations! You just earned 15 points!")
 else:
-    print("nevermind")
+    print("?")
 #what about else???
