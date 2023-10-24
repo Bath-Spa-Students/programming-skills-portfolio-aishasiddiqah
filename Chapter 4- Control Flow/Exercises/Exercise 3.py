@@ -12,7 +12,6 @@ elif color=="yellow":
     print("You have just earned 10 points! Congratulations!")
 elif color=="red":
     print("Congratulations! You just earned 15 points!")
-else:
-    print("?")
+
 
 #what about else???
