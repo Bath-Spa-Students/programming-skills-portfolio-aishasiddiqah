@@ -12,11 +12,12 @@ str1="mary"
 str2="mark"
 str1>str2
 print("str1 is greater than str2")
-
+x= ascii("mary")
+print (x)
 #every if has an else#
 
-#nested decision structure (NOT WORKING-CHECK)
-#for a job at a restaurant #food comp.
+#nested decision structure 
+#for a job at a restaurant #or a food competitiion
 previous_exp=(input("Do you have any previous work experience within this field?"))
 if previous_exp =="yes" :
         
