@@ -4,5 +4,7 @@
 #make a list named 'fruits' that contains names of fruits
 fruits=["apple","mango","banana","orange","pineapple"]
 
-x=fruits[0]
-print(x)
+x = fruits[0]
+y = fruits[4]
+z = fruits[2]
+print(x , y , z)
