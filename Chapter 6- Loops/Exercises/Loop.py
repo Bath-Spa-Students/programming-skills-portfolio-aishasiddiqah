@@ -14,4 +14,7 @@ while count <= 5:
 j=1
 while j<6:
     print(j)
+    if j==4:
+        break
+    j += 1
 
