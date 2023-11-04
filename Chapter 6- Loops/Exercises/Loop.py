@@ -10,10 +10,8 @@ while count <= 5:
     print("Count is:",count)
     count += 1
 
+#break is used to break the loop from the point u want
 j=1
 while j<6:
     print(j)
-    if j==3:
-        break
-    j += 1
 
