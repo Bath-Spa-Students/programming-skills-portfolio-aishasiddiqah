@@ -5,13 +5,38 @@
 #•	 If the alien is red, print a message that the player earned 15 points.
 #•	 Write three versions of this program, making sure each message is printed for the appropriate color alien.
 
+#For a red colored alien:
+color = "red"
+if color=="green":
+    print("Congratulations! You have just earned 5 points!")
+elif color=="yellow":
+    print("You have just earned 10 points! Congratulations!")
+else:
+    print("Congratulations! You just earned 15 points!")  
+
+#For a green colored alien:
+color = "green"
+if color=="green":
+    print("Congratulations! You have just earned 5 points!")
+elif color=="yellow":
+    print("You have just earned 10 points! Congratulations!")
+else:
+    print("Congratulations! You just earned 15 points!")
+
+#For a yellow colored alien
+color = "yellow"
+if color=="green":
+    print("Congratulations! You have just earned 5 points!")
+elif color=="yellow":
+    print("You have just earned 10 points! Congratulations!")
+else:
+    print("Congratulations! You just earned 15 points!")
+
+#OR
 color=input("The color of the alien is: ")
 if color=="green":
     print("Congratulations! You have just earned 5 points!")
 elif color=="yellow":
     print("You have just earned 10 points! Congratulations!")
-elif color=="red":
-    print("Congratulations! You just earned 15 points!")
 else:
-    print("?")
-#what about else???
+    print("Congratulations! You just earned 15 points!")
