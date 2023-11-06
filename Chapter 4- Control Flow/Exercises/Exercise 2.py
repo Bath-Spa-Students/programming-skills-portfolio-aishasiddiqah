@@ -4,8 +4,6 @@
 #•If the alien’s color isn’t green, print a statement that the player just earned 10 points.
 #•Write one version of this program that runs the if block and another that runs the else block.
 
-##first version or second one with the input
-
 color="red"
 if color=="green":
     print("Congratulations! You have just earned 5 points for shooting the alien!")
