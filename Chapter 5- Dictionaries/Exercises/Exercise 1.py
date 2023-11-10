@@ -5,7 +5,7 @@
 
 friend = {
     'First_name':'Jane',
-          'Last_name':'Martin',
+          'Last_name':'Bluet',
           'Age':'34',
           'City':'Venice'
           }
