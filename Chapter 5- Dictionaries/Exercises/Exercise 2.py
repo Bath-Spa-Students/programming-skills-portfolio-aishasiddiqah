@@ -7,3 +7,6 @@
 #* Print each word and its meaning as neatly formatted output. 
 #You might print the word followed by a colon and then its meaning, or print the word on one line and then print its meaning indented on a second line. 
 #Use the newline character (\n) to insert a blank line between each word-meaning pair in your output.
+
+glossary = {}
+#5 words== variable, list, float, int, string, input, 
