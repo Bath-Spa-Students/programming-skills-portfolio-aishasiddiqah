@@ -4,6 +4,7 @@
 #•Write five if statements. Each should check whether a certain kind of fruit is in your list. 
 #If the fruit is in your list, the if block should print a statement,such as You really like bananas!
 
+#List of favorite fruits:
 favorite_fruits=["apple","apricot","mango"]
 
 if "mango" in favorite_fruits:
