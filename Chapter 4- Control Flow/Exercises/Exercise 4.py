@@ -7,6 +7,7 @@
 #•If the person is at least 20 years old but less than 65, print a message that the person is an adult.
 #•If the person is age 65 or older, print a message that the person is an elder.
 
+#Give the variable a value:
 age=48
 
 if age < 2:
@@ -23,7 +24,7 @@ else:
     print("You are an elder.")
 
 #OR
-
+#The user can enter their age:
 age=int(input("My age is: "))
 
 if age < 2:
