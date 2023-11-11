@@ -33,6 +33,7 @@ else:
     print("Congratulations! You just earned 15 points!")
 
 #OR
+#Let the user choose the color of the alien
 color=input("The color of the alien is: ")
 if color=="green":
     print("Congratulations! You have just earned 5 points!")
