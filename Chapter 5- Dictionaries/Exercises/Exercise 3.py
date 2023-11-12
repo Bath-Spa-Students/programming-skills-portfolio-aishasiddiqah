@@ -7,7 +7,12 @@ glossary = {'variable' : 'a quantity used to store data',
             'index' : 'the numerical value used to detect the position of an object within a list, tuple or even a string',
             'integer' : 'a number that does not contain a decimal point',
             'input' : 'a function where the user is required to enter data',
-            'tuple' : 'a data type which is similar to lists and stores multiple data values, but is immutable'
+            'tuple' : 'a data type which is similar to lists and stores multiple data values, but is immutable',
+            'list' : '',
+            'loop' : '',
+            'float' : 'a number containing a decimal',
+            'sorted' : '',
+            'reverse' : ''
             }
 
 # print the words and their meanings
