@@ -3,7 +3,7 @@
 
 topping = "What toppings would you like to add on your pizza?\n"
 while topping != "quit":
-    topping = input ()
+    topping = input ("\n"+topping + " will be added to your pizza. \nWhat other topping would you like on your pizza?\n")
 print("Thank you! Please wait while we get your order ready.")
 
  
