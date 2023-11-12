@@ -16,11 +16,9 @@ glossary = {'variable' : 'a quantity used to store data',
             'tuple' : 'a data type which is similar to lists and stores multiple data values, but is immutable'
             }
 
-# print the words and thier meanings
+# print the words and their meanings
 print("variable:"+"\n",glossary['variable'])
-print("\n""float:"+"\n",glossary['index'])
+print("\n""index:"+"\n",glossary['index'])
 print("\n""integer:"+"\n",glossary['integer'])
 print("\n""input:"+"\n",glossary['input'])
 print("\n""tuple:"+"\n",glossary['tuple'])
-
-print("variable:"+"\n",glossary[1])
