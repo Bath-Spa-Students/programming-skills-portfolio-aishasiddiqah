@@ -10,16 +10,17 @@
 
 #5 programming words i learnt in the previous chapters
 glossary = {'variable' : 'a quantity used to store data',
-            'float' : 'a number that contains a decimal point',
+            'index' : 'the numerical value used to detect the position of an object within a list, tuple or even a string',
             'integer' : 'a number that does not contain a decimal point',
-            'input' : 'a function where a user enters data',
-            'tuple' : 'a data type which is similar to lists, but is immutable'
+            'input' : 'a function where the user is required to enter data',
+            'tuple' : 'a data type which is similar to lists and stores multiple data values, but is immutable'
             }
+
 # print the words and thier meanings
 print("variable:"+"\n",glossary['variable'])
-print("\n""float:"+"\n",glossary['float'])
+print("\n""float:"+"\n",glossary['index'])
 print("\n""integer:"+"\n",glossary['integer'])
 print("\n""input:"+"\n",glossary['input'])
 print("\n""tuple:"+"\n",glossary['tuple'])
 
-
+print("variable:"+"\n",glossary[1])
