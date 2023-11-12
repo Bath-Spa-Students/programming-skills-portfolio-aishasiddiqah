@@ -11,4 +11,5 @@ glossary = {'variable' : 'a quantity used to store data',
             }
 
 # print the words and their meanings
-
+for word, definition in glossary.items():
+    print(word + ":" + "\n" + definition + "\n")
