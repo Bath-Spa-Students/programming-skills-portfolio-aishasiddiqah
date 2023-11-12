@@ -41,6 +41,8 @@ pets = [pet_1,pet_2,pet_3,pet_4]
 
 #loop through the list and print all the information about each pet
 for pet in pets:
-    print (pet)
+    print ("\nThe following information is available regarding the pet,", pet['Name of pet'].title(),"\n")
+    for key, value in pet.items():
+        print(f'{pet.key()}:{pet.value()}')
    
     
