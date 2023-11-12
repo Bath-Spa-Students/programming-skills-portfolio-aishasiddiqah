@@ -2,4 +2,4 @@
 #As they enter each topping, print a message saying you’ll add that topping to their pizza.
 
 topping=input("What topping would you like on your pizza?\n")
-topping == ("\n(Enter 'quit' when you're finished entering toppings) ")
+print("\nPlease enter 'Quit' once you are finished selecting")
