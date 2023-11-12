@@ -6,7 +6,7 @@ while topping != "quit":
   topping = input ("What toppings would you like to add to your pizza order?\n")
 print("Thank you! Please wait while we get your order ready.")
 
- 
+ #("\n"+topping + " will be added to your pizza. \nWhat other topping would you like on your pizza?\n")
 #password = "SecretWord"
 #guess = input()
 #while guess != password:  
