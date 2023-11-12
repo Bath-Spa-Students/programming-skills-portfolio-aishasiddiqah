@@ -9,7 +9,7 @@ glossary = {'variable' : 'a quantity used to store data',
             'input' : 'a function where the user is required to enter data',
             'tuple' : 'a data type which is similar to lists and stores multiple data values, but is immutable',
             'list' : 'a data type containing multiple values under a single variable',
-            'while loop' : 'used in order to repeat code, but only until the condition is satisfied ',
+            'type casting' : 'used to convert a specific datatype into another datatype',
             'float' : 'a number that contains a decimal',
             'sorted' : 'a function used to arrange elements in a specific order, whether in ascending or descending order, or even alphabetically',
             'reverse' : 'a function that reverses the order of elements'
