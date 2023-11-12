@@ -7,8 +7,12 @@ while topping != "quit":
 print("Thank you! Please wait while we get your order ready.")
 
  #("\n"+topping + " will be added to your pizza. \nWhat other topping would you like on your pizza?\n")
-#password = "SecretWord"
-#guess = input()
-#while guess != password:  
-  #guess = input() 
-#print("Access Granted") 
+ #sum=0
+#while True:
+#    x=float(input("Enter No: "))
+#    sum += x
+#    if x == -1 :
+#        break
+#print(sum)
+
+
