@@ -1,18 +1,12 @@
 #Write a loop that prompts the user to enter a series of pizza toppings until they enter a 'quit' value. 
 #As they enter each topping, print a message saying you’ll add that topping to their pizza.
 
+#loop that prompts user to enter their desired pizza toppings (loop continues until user enters 'quit'):
 topping = "What toppings would you like to add on your pizza?\n"
 while topping != "quit":
-  topping = input ("What toppings would you like to add to your pizza order?\n")
-print("Thank you! Please wait while we get your order ready.")
-
- #("\n"+topping + " will be added to your pizza. \nWhat other topping would you like on your pizza?\n")
- #sum=0
-#while True:
-#    x=float(input("Enter No: "))
-#    sum += x
-#    if x == -1 :
-#        break
-#print(sum)
-
-
+  topping = input ("What toppings would you like to add to your pizza order?\n(Please enter 'quit' when you have chosen all the toppings that you desire.)\n")
+  if topping != "quit":
+    print("\t",topping.capitalize(),"will be added to your pizza.\n")
+  if topping == "quit":
+    break
+print("\tThank you! Please wait while your order is being prepared.")
