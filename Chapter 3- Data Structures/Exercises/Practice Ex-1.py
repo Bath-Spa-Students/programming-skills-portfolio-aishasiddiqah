@@ -2,6 +2,8 @@
 
 #Given list:
 list1 = [5, 20, 15, 20, 25, 50, 20]
+
+#using for loop:
 for num in list1:
     if num==20:
         list1.remove(num)
