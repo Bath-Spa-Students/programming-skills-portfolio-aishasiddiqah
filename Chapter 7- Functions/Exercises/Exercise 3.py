@@ -5,12 +5,12 @@
 
 #define a function named make_shirt()
 #the function should accept: size of the shirt and a piece of text that should be printed on the shirt.
-def make_shirt(size,text):
+def make_shirt(size,printed_text):
     print("The size of the shirt should be",size+".")
-    print("The text on the shirt will say\n\t"+text+"\n")
+    print("The text on the shirt will say:\n\t"+printed_text+"\n")
 
 #call the function using positional arguments:
 make_shirt("medium","One day...I'm gonna make the onions cry.".upper())
 
 #call the function using keyword arguments:
-make_shirt(text="Today you are You, that is truer than true. There is no one alive who is Youer than You.",size="large")
+make_shirt(printed_text="Today you are You, that is truer than true. There is no one alive who is Youer than You.",size="large")
