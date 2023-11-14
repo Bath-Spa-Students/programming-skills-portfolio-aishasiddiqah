@@ -2,9 +2,13 @@
 #Unpack the list into three variables x, y and z and then print the values of each variable.
 
 #make a list named 'fruits' that contains names of fruits
-fruits=["apple","mango","banana","orange","pineapple"]
+fruits=["mango","orange","pineapple"]
 
-x = fruits[0]
-y = fruits[4]
-z = fruits[2]
-print(x , y , z)
+#unpack the list into 3 variables
+x = fruits[1]
+y = fruits[2]
+z = fruits[0]
+#print the value of each variable
+print(x)
+print(y)
+print(z)
