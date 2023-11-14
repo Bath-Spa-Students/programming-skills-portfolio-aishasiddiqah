@@ -3,4 +3,12 @@
 #if they are between 3 and 12, the ticket is $10; and if they are over age 12, the ticket is $15. 
 #Write a loop in which you ask users their age, and then tell them the cost of their movie.
 
-your_age= int(input("Please enter your age: "))
+age= int(input("Please enter your age: "))
+if age<3:
+    print("Your ticket is free. Enjoy!")
+
+    if age==3 and age <= 12:
+        print("Your ticket costs $10. Enjoy!")
+    if age > 12:
+        print("Your ticket is $15. Enjoy!")
+
