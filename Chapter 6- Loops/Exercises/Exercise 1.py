@@ -5,7 +5,8 @@
 topping = "What toppings would you like to add on your pizza?\n"
 while topping != "quit":
   topping = input ("What toppings would you like to add to your pizza order?\n(Please enter 'quit' when you have chosen all the toppings that you desire.)\n")
-  print("\t",topping.capitalize(),"will be added to your pizza.\n")
+  if topping != "quit":
+    print("\t",topping.capitalize(),"will be added to your pizza.\n")
   if topping == "quit":
     break
 print("\tThank you! Please wait while your order is being prepared.") 
