@@ -4,7 +4,7 @@
 #loop that prompts user to enter their desired pizza toppings (loop continues until user enters 'quit'):
 topping = "What toppings would you like to add on your pizza?\n"
 while topping != "quit":
-  topping = input (topping)
+  topping = input ("What toppings would you like to add to your pizza order?\n(Please enter 'quit' when you have chosen all the toppings that you desire.)\n")
   if topping != "quit":
     print("\t",topping.capitalize(),"will be added to your pizza.\n")
   if topping == "quit":
