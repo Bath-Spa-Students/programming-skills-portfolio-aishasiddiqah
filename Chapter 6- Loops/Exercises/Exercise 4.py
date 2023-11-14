@@ -11,10 +11,10 @@ finished_sandwiches=[]
 
 #loop through the order list + print a message for each order in the list
 while sandwich_orders:
-    sandwich=sandwich_orders.pop
-    print("Your"+ sandwich+ "is ready. Enjoy!\n")
+    sandwich=sandwich_orders.pop()
+    print("Your",sandwich,"is ready. Enjoy!")
     finished_sandwiches.append(sandwich)
 
 #print a message listing each sandwich that was made
 for sandwich in finished_sandwiches:
-    print("The",sandwich,"was prepared.")
+    print("\tThe",sandwich,"was prepared.")
