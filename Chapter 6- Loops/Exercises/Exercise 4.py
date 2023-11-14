@@ -4,3 +4,17 @@
 #As each sandwich is made, move it to the list of finished sandwiches. 
 #After all the sandwiches have been made, print a message listing each sandwich that was made.
 
+#list of sandwich names
+sandwich_orders=["chicken sandwich","egg sandwich","grilled cheese sandwich","fajita sandwich"]
+#empty list for finished sandwiches
+finished_sandwiches=[]
+
+#loop through the order list + print a message for each order in the list
+while sandwich_orders:
+    sandwich=sandwich_orders.remove
+    print("Your",sandwich,"is ready. Enjoy!\n")
+    finished_sandwiches.append(sandwich)
+
+#print a message listing each sandwich that was made
+for sandwich in finished_sandwiches:
+    print("The",sandwich,"was prepared.")
