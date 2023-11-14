@@ -11,11 +11,10 @@ y = 6
 #then £50 = ? USB sticks
 
 #for number of USB sticks the girl can buy:
-#by using the // operator (floor division)
-a=x//y
+a=int(x/y)
 print("The girl can buy", a, "USB sticks with £50.")
 
 #amount of money the girl will have left:
-#using the % operator (modulus)
-b=x%y
-print(f'She will have {b} pounds left after buying {a} USB sticks.')
+b=y*a
+c=x-b
+print(f'She will have {c} pounds left after buying {a} USB sticks.')
