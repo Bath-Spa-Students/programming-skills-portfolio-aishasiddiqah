@@ -11,7 +11,7 @@ finished_sandwiches=[]
 
 #loop through the order list + print a message for each order in the list
 while sandwich_orders:
-    sandwich=sandwich_orders.remove
+    sandwich=sandwich_orders.pop
     print("Your",sandwich,"is ready. Enjoy!\n")
     finished_sandwiches.append(sandwich)
 
