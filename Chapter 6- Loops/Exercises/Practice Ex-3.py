@@ -3,4 +3,4 @@
 final=0
 for x in range(1,101):
     final += x
-print(final)
+print("The sum of all the numbers from 1 to 100 =\n",final)
