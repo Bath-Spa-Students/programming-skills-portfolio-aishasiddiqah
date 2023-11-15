@@ -3,8 +3,7 @@
 #You should have keys such as first_name, last_name, age, and city. 
 #Print each piece of information stored in your dictionary.
 
-friend = {
-    'First_name':'Jane',
+friend = {'First_name':'Jane',
           'Last_name':'Bluet',
           'Age':'34',
           'City':'Venice'
