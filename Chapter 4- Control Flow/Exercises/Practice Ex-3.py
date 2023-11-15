@@ -7,3 +7,4 @@ amount1=int(input("Enter a value here: "))
 amount2=int(input("Enter a value here: "))
 print("amount1=",amount1)
 print("amount1=",amount2)
+
