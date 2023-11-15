@@ -10,7 +10,7 @@ while True:
         break
 
     age=int(age) 
-    #this is separate because pof the (int) function(if used overall, the 'quit' value is not recognized)
+    #this is separate because of the (int) function(if used overall, the 'quit' value is not recognized)
     if age<3: 
         print("You don't have to pay! Your ticket is free!\n\tEnjoy!")
     elif age==3 or age<=12:
