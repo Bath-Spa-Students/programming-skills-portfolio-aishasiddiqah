@@ -11,10 +11,14 @@ month=input("Please enter the month: ")
 # spring= march, april, may
 
 if month=="june" or "july" or "august":
-    print("It is the summer season.")
+    season="summer"
+    print("It is the",season,"season.")
 elif month=="september" or "october" or "november":
-    print("It is the autumn season.")
+    season="autumn"
+    print("It is the",season,"season.")
 elif month=="december" or "january" or "february":
-    print("It is the winter season.")
+    season="winter"
+    print("It is the",season,"season.")
 elif month=="march" or "april" or "may":
-    print("It is the spring season.")
+    season="spring"
+    print("It is the",season,"season.")
