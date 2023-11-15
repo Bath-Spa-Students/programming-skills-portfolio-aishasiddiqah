@@ -6,5 +6,12 @@
 amount1=int(input("Enter a value here: "))
 amount2=int(input("Enter a value here: "))
 print("amount1=",amount1)
-print("amount1=",amount2)
+print("amount2=",amount2)
 
+if amount1 > 10 and amount2 < 100:
+    if amount1 < amount2:
+        print("amount2 is the greater value")
+    elif amount1 > amount2:
+        print("amount1 is the greater value")
+else:
+    print("The values provided are invalid.")
