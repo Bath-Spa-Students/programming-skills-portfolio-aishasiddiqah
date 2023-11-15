@@ -8,7 +8,7 @@
 #You might print the word followed by a colon and then its meaning, or print the word on one line and then print its meaning indented on a second line. 
 #Use the newline character (\n) to insert a blank line between each word-meaning pair in your output.
 
-#5 programming words i learnt in the previous chapters
+#5 programming words I learnt in the previous chapters
 glossary = {'variable' : 'a quantity used to store data',
             'index' : 'the numerical value used to detect the position of an object within a list, tuple or even a string',
             'integer' : 'a number that does not contain a decimal point',
