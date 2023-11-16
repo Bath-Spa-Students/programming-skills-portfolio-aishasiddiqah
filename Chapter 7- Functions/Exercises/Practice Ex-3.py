@@ -12,5 +12,6 @@ def prime_num(z):
             return False
     return True
 
+#ask the user to input a value
 z=int(input("Enter a number: "))
 print(prime_num(z))
