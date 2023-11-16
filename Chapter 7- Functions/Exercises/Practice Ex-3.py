@@ -1,17 +1,15 @@
 #Write a Python program that uses a function to check if a given number is prime or not.
 
-#by using the math module
-import math
+#take user input 
+num=int(input("Enter a number of your choice: "))
 
-#define a function called prime_num()
-def prime_num(z):
-    if z<=1:
-        return False
-    for x in range(2, int(math.sqrt(z))+1):
-        if z%x==0:
-            return False
-    return True
-
-#ask the user to input a value
-z=int(input("Enter a number: "))
-print(prime_num(z))
+#by using the range() function
+if num>1:
+    for x in range(2,num):
+        if(num%x)==0:
+            print("The number",num,"is NOT a prime number.")
+            break
+    else:
+        print("The number",num,"is a prime number.")
+else:
+    print("The number",num,"is NOT a prime number.")
