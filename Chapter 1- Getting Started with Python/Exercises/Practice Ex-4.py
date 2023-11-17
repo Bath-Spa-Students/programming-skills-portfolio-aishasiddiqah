@@ -8,4 +8,3 @@ h=int(input('Enter value of height of triangle:'))
 #Formula for finding the area of a triangle:
 area=(b*h)/2
 print(area)
-
