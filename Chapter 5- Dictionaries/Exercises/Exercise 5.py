@@ -44,5 +44,3 @@ for pet in pets:
     print ("\nThe following information is available regarding the pet"+pet['Name of pet'].title()+":")
     for section, information in pet.items():
         print(f'{section}:{information}')
-   
-    
