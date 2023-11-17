@@ -6,4 +6,4 @@ Y
 Z''')
 
 #or alternatively, by using the \n method:
-print("W \nX \nY \nZ")
+print("\nW \nX \nY \nZ")
