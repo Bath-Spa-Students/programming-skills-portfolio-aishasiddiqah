@@ -25,8 +25,3 @@ list1.remove(20)
 list1.remove(20)
 list1.remove(20)
 print(list1)
-
-
-    
-
-
