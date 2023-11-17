@@ -3,20 +3,20 @@
 #Print all the variables.
 
 #take input from user
-info=input("Write whatever number you want to: ")
+info=input("Type a value: ")
 
 #typecast the value that was taken from the user into: string, integer and float
 #string
 str_1=str(info)
 #integer
-int_1=int(info)
+int_1=int(float(info))
 #float
 float_1=float(info)
 
 #print all the variables
+print("\nString:")
 print(str_1)
+print("\nInteger:")
 print(int_1)
+print("\nFloat:")
 print(float_1)
-
-### ask
-### bcz error
