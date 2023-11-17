@@ -23,4 +23,3 @@ while sandwich_orders:
 #print a message listing each sandwich that was made
 for sandwich in finished_sandwiches:
     print("\tThe",sandwich,"was prepared.")
-
