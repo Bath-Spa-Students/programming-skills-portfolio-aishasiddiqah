@@ -33,7 +33,8 @@ print(invite_4 , end , regards)
 print("I would like to inform everyone that I will only be able to accommodate two people, unfortunately.")
 
 #Who should I uninvite? 
-#The Queen of Hearts must be very busy with her duties, so I should let her know that she need not attend such an insignificant dinner. I just hope she won't get mad.
+#The Queen of Hearts must be very busy with her duties, so I should let her know that she need not attend such an insignificant dinner. 
+#I just hope she won't get mad.
 guest_list.pop(0)
 print(guest_list)
 
