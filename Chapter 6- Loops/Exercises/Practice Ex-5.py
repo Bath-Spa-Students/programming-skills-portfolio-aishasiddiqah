@@ -13,5 +13,3 @@ while True:
         largest_num=value
 
 print("The largest number is:",largest_num)
-
-
