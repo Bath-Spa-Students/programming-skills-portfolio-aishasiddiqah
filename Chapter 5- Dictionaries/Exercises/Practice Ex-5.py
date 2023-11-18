@@ -1,18 +1,16 @@
 #Write a Python program to merge two dictionaries into one.
 
-myself = {"Name":"Aisha",
-      "Age: ":"18",
-      "Siblings: ":"2 siblings",
-      "Country_of_Residence: ":"United Arab Emirates",
-      "City: ":"Ajman",
-      "Nationality: ":"Pakistan"}
+desserts = {"Tiramisu":"Italy",
+      "Cheesecake":"Greece",
+      "Pavlova":"Australia",
+      "Mochi":"Japan",
+      "Scones":"Scotland"}
 
-favorites={"fruit: ":"mango",
+food={"fruit: ":"mango",
       "vegetable":"tomato",
       "fast_food":"pizza",
-      "snacks":"chips",
-      "dessert":"tiramisu",}
+      "snacks":"chips"}
 
-print(myself|favorites)
+print(desserts|food)
 #OR
-print({**myself,**favorites})
+print({**desserts,**food})
