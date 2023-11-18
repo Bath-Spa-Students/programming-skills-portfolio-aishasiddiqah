@@ -6,6 +6,6 @@
 #the function should accept one parameter, the title of the book
 #the parameter is added within the parentheses
 def favorite_book(title):
-    print("I really like the book",title+". It is one of my all time favorites.")
+    print("\nI really like the book",title+". It is one of my all time favorites.\n")
 
 favorite_book("A Series of Unfortunate Events: The Austere Academy")
