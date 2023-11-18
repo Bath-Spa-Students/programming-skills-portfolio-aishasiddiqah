@@ -4,8 +4,6 @@
 #•Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
 #•Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
 
-##should both be just 'if' statements? not 'if-else'???
-#because the failing version should have no output...
 
 #color of alien will be yellow
 alien_color="yellow"
@@ -22,5 +20,3 @@ if alien_color=="green" :
 alien_color=input("What is the color of the alien?")
 if alien_color == "green" :
     print("You are correct! The color of the alien is green. You have just earned 5 points.")
-else:
-    print("That is incorrect! The colour of the alien is green, not" , alien_color +".")
