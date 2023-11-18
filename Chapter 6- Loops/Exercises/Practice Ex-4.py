@@ -2,7 +2,7 @@
 #condition is met.
 
 #for loop
-for z in range(2050):
+for z in range(207):
     print(z)
-    if z==893:
+    if z==46:
         break
