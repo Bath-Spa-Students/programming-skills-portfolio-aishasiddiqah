@@ -7,3 +7,6 @@ myself = {"Name":"Aisha",
       "Country_of_Residence":"United Arab Emirates",
       "City":"Ajman",
       "Nationality":"Pakistan"}
+
+#print the dictionary
+print(myself)
