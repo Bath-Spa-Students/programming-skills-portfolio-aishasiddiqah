@@ -8,7 +8,7 @@ def factorial(n):
     else:
         return (n*factorial(n-1))
 
-integer=1
+integer=4
 
 #since the integer has to be positive
 #check and confirm in case the number is negative
